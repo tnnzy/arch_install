@@ -8,6 +8,9 @@ Ctrl + x (salir de nano)
 
 Guia de Instalación de Arch Linux UEFI GRUB 
 
+0.0 Para live cd 
+0.1 mount -o remount,size=2G /run/archiso/cowspace
+
 1-  La distribucion de teclado por defecto es US
 1.1 loadkeys es (Para españa)
 1.2 localectl list-keymaps (Para todos los teclados disponibles en el iso de Arch Linux)
