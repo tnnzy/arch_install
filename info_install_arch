@@ -12,6 +12,9 @@ Guia de Instalación de Arch Linux UEFI GRUB
 1.1 loadkeys es (Para españa)
 1.2 localectl list-keymaps (Para todos los teclados disponibles en el iso de Arch Linux)
 1.3 localectl list-keymaps | grep -i codigo (En codigo deben poner el de vuestro pais o lenguaje)
+1.4 ls /usr/share/kbd/keymaps/i386/**/*.map.gz | less
+** To modify the layout, append a corresponding file name to loadkeys, UK for example:
+1.5loadkeys uk.map.gz
 
 2-  Verificar el modo de arranque
 2.1 ls /sys/firmware/efi/efivars
