@@ -87,9 +87,9 @@ xdg-user-dirs xf86-input-synaptics
 13.2 echo LANG=en_US.UTF-8 > /etc/locale.conf (preferencias de localización)
 
 14-  Configuración de red
-14.1 echo RAZER-BLADE-15 > /etc/hostname (nombre del portatil ejemplo: RAZER-BLADE-15)
+14.1 echo roarch > /etc/hostname (nombre del portatil ejemplo: roarch)
 14.2 nano /etc/hosts (añadir el nombre al archivo hosts)
-14.3 127.0.1.1 localhost.localdomain RAZER-BLADE-15 
+14.3 127.0.1.1 localhost.localdomain roarch
 
 15-  Contraseña root
 15.1 passwd (poner la contraseña root deseada)
