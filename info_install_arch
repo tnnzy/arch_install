@@ -62,6 +62,8 @@ Guia de Instalación de Arch Linux UEFI GRUB
 8.4 Vamos al principio donde comienzan los paices y colocamos el nuestro ejemplo:(##Sweden) 
 8.5 justo debajo del pais que hemos puesto pegamos con ( ctrl + u ) para agregar la fila server de antes.
 8.6 pacman -Syy (actualizar solo mirrors)
+8.7 pacman -Sy reflector
+8.8 reflector --verbose --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
 
 9-  Instalar el sistema base
 9.1 pacstrap -i /mnt base base-devel linux linux-firmware nano networkmanager grub efibootmgr os-prober ntfs-3g 
