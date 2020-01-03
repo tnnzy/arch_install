@@ -76,7 +76,7 @@ xdg-user-dirs xf86-input-synaptics
 
 11-  Zona horaria
 11.1 ln -sf /usr/share/zoneinfo/ (presionar ( Tab ) para ver todas las zonas horarias existentes)
-11.2 ln -sf /usr/share/zoneinfo/Europe/Stockholm /etc/localtime (en mi caso)
+11.2 ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime (en mi caso)
 
 12-  Hora local
 12.1 hwclock --systohc --utc 
