@@ -109,6 +109,7 @@ xdg-user-dirs xf86-input-synaptics
 
 18-  Instalar escritorio plasma
 18.1 pacman -S pulseaudio pulseaudio-alsa xorg xorg-xinit xorg-server
+18.2 pacman -Sy --needed pulseaudio vlc simplescreenrecorder cdrtools gstreamer gst-libav gst-plugins-base gst-plugins-base-libs gst-plugins-good gst-plugins-bad gst-plugins-ugly gstreamer-vaapi gst-transcoder xvidcore frei0r-plugins cdrdao dvdauthor transcode alsa-utils alsa-plugins alsa-firmware pulseaudio-alsa pulseaudio-equalizer pulseaudio-jack ffmpeg ffmpegthumbnailer libdvdcss gimp guvcview imagemagick flac faad2 faac mjpegtools x265 x264 lame sox mencoder
 18.2 pacman -S virtualbox-guest-utils
 18.3 pacman -S plasma-desktop plasma-meta kde-gtk-config konsole dolphin kwrite okular sddm bluez bluez-utils gwenview
 
